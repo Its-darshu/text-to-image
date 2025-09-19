@@ -1,0 +1,30 @@
+# Core dependencies for text-to-audio project
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+soundfile>=0.12.1
+scipy>=1.10.0
+librosa>=0.10.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+jupyter>=1.0.0
+
+# Text processing
+nltk>=3.8
+regex>=2023.6.3
+phonemizer>=3.2.1
+
+# Audio processing
+pydub>=0.25.1
+pyaudio>=0.2.11
+pygame>=2.5.0
+
+# Hugging Face specific
+accelerate>=0.20.0
+tokenizers>=0.13.0
+
+# Optional but recommended
+ipython>=8.12.0
+tqdm>=4.65.0
