@@ -1,0 +1,29 @@
+# Core dependencies for text-to-image generation
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+diffusers>=0.24.0
+accelerate>=0.24.0
+datasets>=2.14.0
+
+# Image processing and utilities
+Pillow>=10.0.0
+numpy>=1.24.0
+opencv-python>=4.8.0
+
+# Tokenization and text processing
+tokenizers>=0.14.0
+sentencepiece>=0.1.99
+
+# Training and optimization
+tqdm>=4.65.0
+wandb>=0.15.0
+# xformers>=0.0.22  # Commented out for Windows CPU compatibility
+
+# Web interface (optional)
+gradio>=4.0.0
+streamlit>=1.28.0
+
+# Utilities
+matplotlib>=3.7.0
+requests>=2.31.0
